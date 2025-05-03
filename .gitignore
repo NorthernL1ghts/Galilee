@@ -1,3 +1,7 @@
+# Ignore Visual Studio Files
+.vs/
+.vscode/
+
 # Prerequisites
 *.d
 
@@ -30,3 +34,9 @@
 *.exe
 *.out
 *.app
+
+# Ignore build directories
+Binaries/
+bld/
+x64/
+Intermediates/
